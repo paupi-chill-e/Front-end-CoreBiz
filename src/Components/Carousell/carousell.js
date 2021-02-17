@@ -5,8 +5,8 @@ import "./style.css";
 import { CounterContext } from "../../App";
 
 const Carousell = () => {
-  
-  const { count, setCount } = useContext(CounterContext);
+
+  const [ count, setCount] = useContext(CounterContext);
 
   const [products, setProducts] = useState([]);
   useEffect(() => {

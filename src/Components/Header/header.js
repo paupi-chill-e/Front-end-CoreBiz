@@ -6,7 +6,8 @@ import './style.css';
 import {CounterContext} from '../../App';
 
 const Header = () => {
-  const { count, setCount } = useContext(CounterContext);
+  const [count, setCount ]= useContext(CounterContext);
+
   return (
     <div className='ayuda'>
       <div className="container-logo-header">

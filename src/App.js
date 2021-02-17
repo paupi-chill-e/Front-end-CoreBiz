@@ -11,11 +11,7 @@ function App() {
 
   return (
     <div>
-      <CounterContext.Provider
-        value={{
-          count: [count, setCount],
-        }}
-      >
+      <CounterContext.Provider value={[count, setCount]}>
         <Header />
         <Banner />
         <Carousell />
