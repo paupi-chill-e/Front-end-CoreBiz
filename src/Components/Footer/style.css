@@ -1,0 +1,49 @@
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 2% 15%;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 13.5px;
+  font-weight: 100;
+}
+.container-white {
+  background-color: white;
+  height: 5px;
+  width: 12%;
+  border-radius: 2px;
+  margin-bottom: 5%;
+}
+.container-location {
+  margin-right: 15%;
+  width:30%;
+}
+.container-btns {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 60%;
+}
+.btns-footer {
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  height: 40px;
+  width: 40%;
+  margin-bottom: 3%;
+}
+.container-info{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 30%;
+}
+.container-each-logo{
+  margin-left: 15%;
+}
+.icon-btn{
+  padding-right: 5px;
+}

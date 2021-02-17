@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import logo from "../../statics/logo.png";
 import account from "../../statics/account.png";
 import shoppingCart from "../../statics/shopping-cart.png";
 import './style.css';
+import {CounterContext} from '../../App';
 
 const Header = () => {
+  const [count, setCount ]= useContext(CounterContext);
+
   return (
     <div className='ayuda'>
       <div className="container-logo-header">
@@ -24,7 +27,7 @@ const Header = () => {
           <img alt="shopping-cart" src={shoppingCart} />
         </div>
         <div className='container-counter-mini-cart'>
-          <p>0</p>
+          <p>{count}</p>
         </div>
       </div>
     </div>
